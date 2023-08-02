@@ -1,0 +1,278 @@
+@media print {
+  footer #print {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bahij TheSansArabic Plain", "The Sans Bold", "The Sans Plain",
+    Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+/*الهيدر*/
+.HEADER {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #2b3e4b;
+  text-align: center;
+  align-items: center;
+}
+/* الهيدر جهة اليمين*/
+.TOPRIGHT {
+  width: 33.33%;
+  background-color: #2b3e4b;
+  float: right;
+  height: 74px;
+  color: darkgrey;
+}
+.sele {
+  color: darkgrey;
+  background-color: #2b3e4b;
+  border: none;
+}
+/*الهيدر وسط*/
+.TOPMIDDLE {
+  width: 33.33%;
+  height: 74px;
+}
+/* عنوان التقرير (تقرير الرصد الإعلامي)*/
+.p_eader {
+  text-align: center;
+  color: darkblue;
+  font-size: 14px;
+}
+/*الهيدر يسار*/
+.TOPLEFT {
+  width: 33.33%;
+  background: #2b3e4b;
+  float: left;
+  height: 74px;
+}
+
+/*---------تنسيق حدود القسم الأول في بيانات الرصد--------*/
+.Di_Bayanat_Alrasd {
+  margin: 2px;
+  padding: 1px;
+  border: 1px solid #2b3e4b;
+}
+.Se_Bayanat_Alrasd {
+  background-color: #f9f9f9;
+}
+
+/*---تنسيق التاريخ في بيانات الرصد-*/
+.C_ID_Date {
+  font-size: 14px;
+  color: darkblue;
+  border: none;
+}
+/*----تنسيق حدود فئة الرصد------*/
+.Di_Nawe_Alrasd {
+  margin: 2px;
+  padding: 1px;
+  border: 1px solid #2b3e4b;
+}
+/*----تنسيق حدود معرف مصدر الرصد------*/
+.Di_Maelumat_Alrasd {
+  margin: 2px;
+  padding: 1px;
+  border: 1px solid #2b3e4b;
+}
+/*----تنسيق حدود ثانياً الإجراء الذي تم------*/
+.Di_Almubashara {
+  margin: 2px;
+  padding: 1px;
+  border: 1px solid #2b3e4b;
+}
+/*إطار الرئيسي للصور*/
+
+#profile-pic {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 2px;
+  width: 190px;
+  height: 190px;
+  border: #ffffff solid 1px;
+}
+#profile-pic1 {
+  margin-left: 2px;
+  margin-right: 280px;
+  padding: 2px;
+  width: 190px;
+  height: 190px;
+  border: #ffffff solid 1px;
+}
+.IM {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 2px;
+  padding: 2px;
+  border: #1d2b3a solid 1px;
+}
+.lcphoto {
+  display: none;
+}
+#input-file {
+  display: none;
+}
+#input-file1 {
+  display: none;
+}
+#l-input-file {
+  margin-right: 2px;
+  width: 197px;
+  display: flex;
+  background-color: rgb(50 195 108);
+  color: #ffffff;
+}
+#l-input-file1 {
+  margin-left: 2px;
+  margin-right: 280px;
+  width: 197px;
+  display: flex;
+  background-color: rgb(50 195 108);
+  color: #ffffff;
+}
+footer h3 {
+  color: darkblue;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 10px;
+  padding: 10px;
+  color: darkred;
+}
+/*اسم المراقب  */
+.NAME_EMPLOYEE {
+  width: 50%;
+  background-color: #2b3e4b;
+  float: right;
+  height: 25px;
+}
+.L_ID_Name_Employee {
+  margin: 2px;
+  color: aliceblue;
+  font-size: 13px;
+}
+.L_ID_Name_MANAGER {
+  color: aliceblue;
+  font-size: 13px;
+}
+/*اسم المدير  */
+.NAME_MANAGER {
+  width: 50%;
+  background-color: #2b3e4b;
+  float: right;
+  height: 25px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/*-هنا جميع معرفات ID*/
+/*أبعاد الشعار */
+#RiyadhCityLogo {
+  width: 200px;
+  height: 50px;
+}
+
+/*(ثانياً الإجراء الذي تم:) & (أولاً بيانات الرصد)*/
+#txt_P1 {
+  text-align: right;
+  color: #f9f9f9;
+  font-size: 14px;
+  background-color: #32c36c;
+}
+/*-نص أهمية الرصد*/
+#ID_Lab_Ahamiyat_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/*-نص تصنيف الرصد*/
+#ID_Lab_Tasnif_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/*نص مصدر الرصد*/
+#ID_Masdar_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/*نص فئة الرصد*/
+#ID_Nawe_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/*نص معرف الرصد - label*/
+#L_ID_Maelumat_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/* نص الرصد - text*/
+#txt_Maelumat_Alrasd {
+  margin-top: 3px;
+  margin-right: 1px;
+  padding: 4px;
+  width: 98%;
+  height: 40px;
+  color: orangered;
+  font-size: 11px;
+  resize: none;
+  border: #2b3e4b solid 1px;
+}
+/* نص الرصد ملصق - label*/
+#L_txt_Maelumat_Alrasd {
+  text-align: right;
+  color: darkblue;
+  font-size: 14px;
+}
+/*نص الإفادة*/
+#ID_txt_Statement {
+  margin-top: 3px;
+  margin-right: 1px;
+  padding: 4px;
+  width: 98%;
+  height: 40px;
+  font-size: 11px;
+  resize: none;
+  color: darkblue;
+  border: #2b3e4b solid 1px;
+}
+/*تنسيق الصورة على اليمين  */
+
+/*تنسيق الصورة على اليسار */
+
+/*معلومات المصمم */
+#notes {
+  background-color: #2b3e4b;
+  font-size: 10px;
+  color: #f9f9f9;
+  text-align: center;
+}
+#print {
+  width: 100%;
+  height: 50px;
+  background-color: #2b3e4b;
+  color: greenyellow;
+}
+
+#a_Phone {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#a_whatsapp {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#a_Email {
+  margin-left: 10%;
+  margin-right: 10%;
+}

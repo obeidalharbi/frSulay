@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StylesSuly.css" />
+    <link rel="icon" href="img/Riyadh_City_Logo.png" />
+    <title>تقرير الرصد الإعلامي</title>
+  </head>
+
+  <body>
+    <!-- بداية الهيدر  -->
+    <header>
+      <!-- تقسيم الهيدر إلى ثلاث أقسام يمين وسط ويسار  -->
+      <div class="HEADER">
+        <!-- الهيدر يمين  -->
+        <div class="TOPRIGHT">
+          <p class="p_TOPRIGHT">المملكة العربية السعودية</p>
+          <p class="p_TOPRIGHT">أمانة منطقة الرياض</p>
+          <p class="p_TOPRIGHT">الإدارة / البلدية</p>
+          <select class="sele" name="sele">
+            <option value="0">----</option>
+            <option value="1">بلدية البطحاء</option>
+            <option value="2">بلدية الحائر</option>
+            <option value="3">بلدية الروضة</option>
+            <option value="4">بلدية السلي</option>
+            <option value="5">بلدية الشرق</option>
+            <option value="6">بلدية الشفاء</option>
+            <option value="7">بلدية الشمال</option>
+            <option value="8">بلدية الشميسي</option>
+            <option value="9">بلدية العريجاء</option>
+            <option value="10">بلدية العزيزية</option>
+            <option value="11">بلدية العليا</option>
+            <option value="12">بلدية المعذر</option>
+            <option value="13">بلدية الملز</option>
+            <option value="14">بلدية النسيم</option>
+            <option value="15">بلدية عرقة</option>
+            <option value="16">بلدية نمار</option>
+          </select>
+        </div>
+        <!-- الهيدر وسط  -->
+        <div class="TOPMIDDLE">
+          <img src="img/logo-dark.png" id="RiyadhCityLogo" />
+        </div>
+        <!-- الهيدر يسار  -->
+        <div class="TOPLEFT">
+          <p></p>
+        </div>
+      </div>
+    </header>
+    <!-- نهاية الهيدر  -->
+    <!-- العنوان  -->
+    <h2 class="p_eader">تقرير الرصد الإعلامي</h2>
+    <!-- قسم الأول بيانات الرصدر   -->
+    <p id="txt_P1">أولاً بيانات الرصد:</p>
+    <div class="Di_Bayanat_Alrasd">
+      <section class="Se_Bayanat_Alrasd">
+        <label class="C_ID_Date" for="ID_date">التاريخ:</label>
+        <input type="datetime-local" id="ID_date" />
+        <!--درجة الأهمية الرصد-->
+        <div class="Di_Ahamiyat_Alrasd">
+          <section class="Se_Ahamiyat_Alrasd">
+            <form>
+              <label id="ID_Lab_Ahamiyat_Alrasd" for="Ahamiyat_Alrasd"
+                >أهمية الرصد:</label
+              >
+              <label for="Ahamiyat_Alrasd1">خطير</label> &nbsp;
+              <input
+                type="radio"
+                name="Ahamiyat_Alrasd"
+                id="Ahamiyat_Alrasd1"
+              />
+              &nbsp; <label for="Ahamiyat_Alrasd2">متوسط</label> &nbsp;
+              <input
+                type="radio"
+                name="Ahamiyat_Alrasd"
+                id="Ahamiyat_Alrasd2"
+              />
+              &nbsp; <label for="Ahamiyat_Alrasd3">عادي</label> &nbsp;
+              <input
+                type="radio"
+                name="Ahamiyat_Alrasd"
+                id="Ahamiyat_Alrasd3"
+              />
+              &nbsp;
+            </form>
+          </section>
+        </div>
+        <!--درجة تصنيف الرصد-->
+        <div class="Di_Tasnif_Alrasd">
+          <section class="Se_Tasnif_Alrasd">
+            <form>
+              <label id="ID_Lab_Tasnif_Alrasd" for="Tasnif_Alrasd"
+                >تصنيف الرصد:</label
+              >
+              <label for="Tasnif_Alrasd1">عاجل</label> &nbsp;
+              <input type="radio" name="Tasnif_Alrasd" id="Tasnif_Alrasd1" />
+              &nbsp; <label for="Tasnif_Alrasd2">هام</label> &nbsp;
+              <input type="radio" name="Tasnif_Alrasd" id="Tasnif_Alrasd2" />
+              &nbsp; <label for="Tasnif_Alrasd3">عادي</label> &nbsp;
+              <input type="radio" name="Tasnif_Alrasd" id="Tasnif_Alrasd3" />
+              &nbsp;
+            </form>
+          </section>
+        </div>
+        <!--مصدر الرصد-->
+        <div class="Di_Masdar_Alrasd">
+          <section class="Se_Masdar_Alrasd">
+            <form>
+              <label id="ID_Masdar_Alrasd" for="Masdar_Alrasd"
+                >مصدر الرصد:</label
+              >
+              <input type="radio" name="Masdar_Alrasd" id="Importance1" />
+              &nbsp; <label for="Importance1">تويتر</label>&nbsp;
+              <input type="radio" name="Masdar_Alrasd" id="Importance2" />
+              &nbsp; <label for="Importance1">يوتيوب</label> &nbsp;
+              <input type="radio" name="Masdar_Alrasd" id="Importance3" />
+              &nbsp; <label for="Importance1">واتس آب</label> &nbsp;
+              <input type="radio" name="Masdar_Alrasd" id="Importance4" />
+              &nbsp; <label for="Importance1">تيك توك</label> &nbsp;
+              <input type="radio" name="Masdar_Alrasd" id="Importance5" />
+              &nbsp; <label for="Importance1">فيسبوك</label> &nbsp;
+            </form>
+          </section>
+        </div>
+      </section>
+    </div>
+    <!-- قسم الثاني موقع الرصد   -->
+    <div class="Di_Nawe_Alrasd">
+      <section class="Se_Nawe_Alrasd">
+        <form>
+          <label id="ID_Nawe_Alrasd" for="Nawe_Alrasd">فئة الرصد:</label>
+          <input type="radio" name="Nawe_Alrasd" id="Importance1" /> &nbsp;
+          <label for="Importance1">منشأة تجارية</label>&nbsp;
+          <input type="radio" name="Nawe_Alrasd" id="Importance2" /> &nbsp;
+          <label for="Importance1">طرق وحفريات</label> &nbsp;
+          <input type="radio" name="Nawe_Alrasd" id="Importance3" /> &nbsp;
+          <label for="Importance1">الإصحاح البيئي</label> &nbsp;
+          <input type="radio" name="Nawe_Alrasd" id="Importance4" /> &nbsp;
+          <label for="Importance1">الحدائق</label> &nbsp;
+          <input type="radio" name="Nawe_Alrasd" id="Importance5" /> &nbsp;
+          <label for="Importance1">الإنارة</label> &nbsp;
+        </form>
+      </section>
+    </div>
+    <!--معلومات مصدر الرصد-->
+    <div class="Di_Maelumat_Alrasd">
+      <section class="Se_Maelumat_Alrasd">
+        <form>
+          <label id="L_ID_Maelumat_Alrasd" for="ID_Maelumat_Alrasd"
+            >مُعرف مصدر الرصد:</label
+          >
+          <input
+            type="text"
+            id="ID_Maelumat_Alrasd"
+            placeholder="مُعرف مصدر الرصد  ..."
+            autocomplete="off"
+          /><br />
+          <label id="L_txt_Maelumat_Alrasd" for="txt_Maelumat_Alrasd">
+            محتوى :
+          </label>
+          <textarea
+            id="txt_Maelumat_Alrasd"
+            placeholder="نص  ..."
+            autocomplete="off"
+            required
+            row="4"
+            maxlength="1000"
+          ></textarea>
+        </form>
+      </section>
+    </div>
+    <!-- قسم الثالث المباشرة   -->
+    <div class="Di_Almubashara">
+      <section class="Se_Almubashara">
+        <p id="txt_P1">ثانياً الإجراء الذي تم:</p>
+        <label class="LEG_ID_Date" for="ID_date"
+          >تم مباشرة الرصد الإعلامي في</label
+        >
+        <input type="datetime-local" id="ID_date" />
+        <form>
+          &nbsp;<label for="Direct">وبعد الوقوف على الموقع أتضح لنا :</label>
+          &nbsp; <input type="radio" name="Direct" id="Direct1" /> &nbsp;
+          <label for="Direct1">البلاغ صحيح</label> &nbsp;
+          <input type="radio" name="Direct" id="Direct2" />
+          <label for="Direct2">البلاغ غير صحيح</label> &nbsp;
+        </form>
+        &nbsp;
+        <p id="Lab_txt_Statement">نص الإفادة:</p>
+        <textarea
+          id="ID_txt_Statement"
+          placeholder="نص الإفادة ..."
+          autocomplete="off"
+          required
+          row="4"
+          maxlength="1000"
+        >
+        </textarea>
+      </section>
+    </div>
+    <div class="IM">
+      <div class="hero1">
+        <div class="card1">
+          <label for="input-file" id="l-input-file">صورة</label>
+          <img src="img/image_not_available.png" id="profile-pic" />
+          <input
+            type="file"
+            accept="image/jpeg, image/png, image/jpg"
+            id="input-file"
+          />
+        </div>
+      </div>
+      <div class="hero2">
+        <div class="card2">
+          <label for="input-file1" id="l-input-file1">صورة</label>
+          <img src="img/image_not_available.png" id="profile-pic1" />
+          <input
+            type="file"
+            accept="image/jpeg, image/png, image/jpg"
+            id="input-file1"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2 class="p_eader">وتقبلوا خالص التحية والتقدير،،،</h2>
+      <div class="NAME_EMPLOYEE">
+        <label class="L_ID_Name_Employee" for="ID_Name_Employee"
+          >اسم المراقب:</label
+        >
+        <input
+          type="text"
+          placeholder="اسم المراقب"
+          autocomplete="off"
+          id="ID_Name_Employee"
+        />
+      </div>
+      <div class="NAME_MANAGER">
+        <label class="L_ID_Name_MANAGER" for="ID_Name_MANAGER"
+          >اسم المدير المباشر:</label
+        >
+        <input
+          type="text"
+          placeholder="اسم المدير المباشر"
+          autocomplete="off"
+          id="ID_Name_MANAGER"
+        />
+      </div>
+      <div class="Instructions">
+        <h3>تعليمات</h3>
+        <ul>
+          <li>يجب كتابة جميع البيانات بأسلوب واضح.</li>
+          <li>يعتبر التقرير لاغياً في حالة تعبئة جميع البيانات.</li>
+          <li>يجب ختم التقرير بالختم الرسمي للبلدية المعنية.</li>
+        </ul>
+        <p id="notes">
+          تصميم عبيد الحربي - قنوات التواصل:
+          <a id="a_Phone" href="tel:0593040492" target="_blank">
+            <img
+              src="img/user-voice-regular-240.png "
+              width="20px"
+              height="20px"
+            />
+          </a>
+
+          <a
+            id="a_whatsapp"
+            href="https://api.whatsapp.com/send?phone=966593040492"
+            target="_blank"
+          >
+            <img src="img/whatsapp-logo-240.png" width="20px" height="20px" />
+          </a>
+
+          <a id="a_Email" href="mailto:aaswad@alriyadh.gov.sa" target="_blank">
+            <img
+              src="img/envelope-regular-240.png "
+              width="20px"
+              height="20px"
+            />
+          </a>
+        </p>
+      </div>
+      <button id="print">طباعة</button>
+    </footer>
+    <script>
+      let profilePic = document.getElementById("profile-pic");
+      let inputFile = document.getElementById("input-file");
+      inputFile.onchange = function () {
+        profilePic.src = URL.createObjectURL(inputFile.files[0]);
+      };
+    </script>
+    <script>
+      let profilePic1 = document.getElementById("profile-pic1");
+      let inputFile1 = document.getElementById("input-file1");
+      inputFile1.onchange = function () {
+        profilePic1.src = URL.createObjectURL(inputFile1.files[0]);
+      };
+    </script>
+    <script>
+      const printBtn = document.getElementById("print");
+      printBtn.addEventListener("click", function () {
+        window.print();
+      });
+    </script>
+  </body>
+</html>
